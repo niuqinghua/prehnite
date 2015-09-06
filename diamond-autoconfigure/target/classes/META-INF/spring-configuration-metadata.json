@@ -1,0 +1,12 @@
+{
+  "groups": [{
+    "name": "diamond.activemq",
+    "type": "dream.diamond.autoconfigure.activemq.ActiveMQProperties",
+    "sourceType": "dream.diamond.autoconfigure.activemq.ActiveMQProperties"
+  }],
+  "properties": [{
+    "name": "diamond.activemq.broker-url",
+    "type": "java.lang.String",
+    "sourceType": "dream.diamond.autoconfigure.activemq.ActiveMQProperties"
+  }]
+}
