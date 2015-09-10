@@ -11,7 +11,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <diamond.version>1.0-SNAPSHOT</diamond.version>
+        <prehnite.version>1.0-SNAPSHOT</prehnite.version>
         <dozer.version>5.5.1</dozer.version>
         <spring.boot.version>1.2.5.RELEASE</spring.boot.version>
         <metrics.version>0.0.1-SNAPSHOT</metrics.version>
@@ -46,62 +46,62 @@
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-basic</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-application</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-application-service</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-application-web</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-starter-jetty</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-starter-embedded-tomcat</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-starter-external-container</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-autoconfigure</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-starter</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-starter-activemq</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-starter-shiro</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-starter-spring-security</artifactId>
-                <version>${diamond.version}</version>
+                <version>${prehnite.version}</version>
             </dependency>
             <dependency>
                 <groupId>net.sf.dozer</groupId>
@@ -193,6 +193,46 @@
                 <groupId>org.apache.geronimo.specs</groupId>
                 <artifactId>geronimo-jms_1.1_spec</artifactId>
                 <version>${geronimo-jms-1-1-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-component</artifactId>
+                <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-activemq</artifactId>
+                <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-embedded-tomcat</artifactId>
+                <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-jetty</artifactId>
+                <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-external-container</artifactId>
+                <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-swiftmq</artifactId>
+                <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-shiro</artifactId>
+                <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-spring-security</artifactId>
+                <version>${prehnite.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

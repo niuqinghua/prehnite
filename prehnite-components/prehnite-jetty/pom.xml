@@ -3,19 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>prehnite-starters</artifactId>
+        <artifactId>prehnite-components</artifactId>
         <groupId>dream.diamond</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>prehnite-starter-external-container</artifactId>
+    <artifactId>prehnite-jetty</artifactId>
 
     <dependencies>
         <dependency>
+            <groupId>dream.diamond</groupId>
+            <artifactId>prehnite-component</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
+            <artifactId>spring-boot-starter-jetty</artifactId>
         </dependency>
     </dependencies>
 </project>

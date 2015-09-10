@@ -1,4 +1,4 @@
-package dream.diamond.starters.embedded.tomcat;
+package dream.prehnite.component.embedded.tomcat;
 
 import org.apache.catalina.connector.Connector;
 import org.apache.coyote.http11.Http11NioProtocol;
@@ -31,13 +31,13 @@ public class TomcatThreadConfiguration {
     @Bean
     public EmbeddedServletContainerCustomizer embeddedServletContainerCustomizerThreadConfig() {
         return new EmbeddedServletContainerCustomizer() {
-            @Override
+
             public void customize(ConfigurableEmbeddedServletContainer factory) {
                 if (factory instanceof TomcatEmbeddedServletContainerFactory) {
                     TomcatEmbeddedServletContainerFactory tomcatFactory = (TomcatEmbeddedServletContainerFactory)
                                                                                   factory;
                     tomcatFactory.addConnectorCustomizers(new TomcatConnectorCustomizer() {
-                        @Override
+
                         public void customize(Connector connector) {
                             final Http11NioProtocol protocolHandler = (Http11NioProtocol) connector.getProtocolHandler();
                             protocolHandler.setMaxThreads(maxThreads);
