@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * Created by niuqinghua on 15/9/14.
  */
-@ConfigurationProperties(prefix = "diamond..swiftmq")
+@ConfigurationProperties(prefix = "prehnite.swiftmq")
 public class SwiftMQProperties {
 
     private String url;
