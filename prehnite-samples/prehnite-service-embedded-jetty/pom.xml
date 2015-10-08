@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>dream.diamond</groupId>
-            <artifactId>prehnite-starter-jetty</artifactId>
+            <artifactId>prehnite-jetty</artifactId>
         </dependency>
         <dependency>
             <groupId>dream.diamond</groupId>

@@ -22,6 +22,7 @@
         <module>prehnite-swiftmq</module>
         <module>prehnite-shiro</module>
         <module>prehnite-spring-security</module>
+        <module>prehnite-dubbo</module>
     </modules>
 
 </project>

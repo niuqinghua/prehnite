@@ -32,6 +32,7 @@
         <activemq.pool.version>5.11.1</activemq.pool.version>
         <qpid-client.version>0.32</qpid-client.version>
         <geronimo-jms-1-1-version>1.1.1</geronimo-jms-1-1-version>
+        <dubbo-version>2.5.3</dubbo-version>
     </properties>
 
     <dependencyManagement>
@@ -233,6 +234,11 @@
                 <groupId>dream.diamond</groupId>
                 <artifactId>prehnite-spring-security</artifactId>
                 <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

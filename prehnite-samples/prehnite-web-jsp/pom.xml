@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>dream.diamond</groupId>
-            <artifactId>prehnite-starter-external-container</artifactId>
+            <artifactId>prehnite-external-container</artifactId>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>

@@ -15,8 +15,6 @@
         <module>prehnite-application-service</module>
         <module>prehnite-application-web</module>
         <module>prehnite-samples</module>
-        <module>prehnite-autoconfigure</module>
-        <module>prehnite-starters</module>
         <module>prehnite-dependencies</module>
         <module>prehnite-parent</module>
         <module>prehnite-components</module>
