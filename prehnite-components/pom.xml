@@ -23,6 +23,7 @@
         <module>prehnite-shiro</module>
         <module>prehnite-spring-security</module>
         <module>prehnite-dubbo</module>
+        <module>prehnite-dozer</module>
     </modules>
 
 </project>
