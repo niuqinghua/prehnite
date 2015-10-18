@@ -27,6 +27,7 @@
         <module>prehnite-web-module</module>
         <module>prehnite-web-velocity</module>
         <module>prehnite-web-tiles</module>
+        <module>prehnite-netty-http</module>
     </modules>
 
     <dependencyManagement>
