@@ -48,7 +48,7 @@
             </dependency>
             <dependency>
                 <groupId>dream.diamond</groupId>
-                <artifactId>prehnite-basic</artifactId>
+                <artifactId>prehnite-common</artifactId>
                 <version>${prehnite.version}</version>
             </dependency>
             <dependency>

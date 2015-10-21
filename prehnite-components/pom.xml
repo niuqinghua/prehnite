@@ -26,6 +26,7 @@
         <module>prehnite-dozer</module>
         <module>prehnite-utf8</module>
         <module>prehnite-swagger</module>
+        <module>prehnite-common</module>
     </modules>
 
 </project>
