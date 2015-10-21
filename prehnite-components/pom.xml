@@ -24,6 +24,8 @@
         <module>prehnite-spring-security</module>
         <module>prehnite-dubbo</module>
         <module>prehnite-dozer</module>
+        <module>prehnite-utf8</module>
+        <module>prehnite-swagger</module>
     </modules>
 
 </project>

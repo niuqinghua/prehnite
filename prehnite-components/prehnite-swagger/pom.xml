@@ -3,32 +3,23 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>prehnite-parent</artifactId>
+        <artifactId>prehnite-components</artifactId>
         <groupId>dream.diamond</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../prehnite-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    
-    <artifactId>prehnite-application</artifactId>
+
+    <artifactId>prehnite-swagger</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>dream.diamond</groupId>
-            <artifactId>prehnite-basic</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <scope>provided</scope>
+            <artifactId>prehnite-component</artifactId>
         </dependency>
         <dependency>
             <groupId>com.mangofactory</groupId>
             <artifactId>swagger-springmvc</artifactId>
         </dependency>
     </dependencies>
+
 </project>
