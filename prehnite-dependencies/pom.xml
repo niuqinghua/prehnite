@@ -238,6 +238,16 @@
                 <version>${prehnite.version}</version>
             </dependency>
             <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-swagger</artifactId>
+                <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-utf8</artifactId>
+                <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>dubbo</artifactId>
                 <version>${dubbo-version}</version>
