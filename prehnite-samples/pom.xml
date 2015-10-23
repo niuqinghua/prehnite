@@ -29,6 +29,7 @@
         <module>prehnite-web-tiles</module>
         <module>prehnite-netty-http</module>
         <module>prehnite-sample-swiftmq</module>
+        <module>prehnite-helloworld</module>
     </modules>
 
     <dependencyManagement>
