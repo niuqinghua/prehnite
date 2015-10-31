@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>dream.diamond</groupId>
-            <artifactId>prehnite-external-container</artifactId>
+            <artifactId>prehnite-component</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

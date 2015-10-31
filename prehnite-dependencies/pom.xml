@@ -107,6 +107,11 @@
                 <version>${prehnite.version}</version>
             </dependency>
             <dependency>
+                <groupId>dream.diamond</groupId>
+                <artifactId>prehnite-dozer</artifactId>
+                <version>${prehnite.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>net.sf.dozer</groupId>
                 <artifactId>dozer</artifactId>
                 <version>${dozer.version}</version>
